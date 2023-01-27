@@ -20,11 +20,11 @@ but when do reads we read **aggregated** data, not entity base model.
 
 ## <img src="../images/icons/happy.svg" style="position:relative; top:5px" /> solution
 
-Most of method we use in our applications are: GET, POST, PUT, DELETE
+Operations that we do in our database are: READ, WRITE, UPDATE, DELETE
 
--   `GET` called:
+-   `read` called:
     **_Query_**, **_aggregation data grid_** or **_presentation object_**
--   `POST, PUT, DELETE` called:
+-   `write, edit, delete` called:
     **_commands_**. or **_entity based model_**
 
 Steps:
