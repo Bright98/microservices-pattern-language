@@ -25,14 +25,14 @@ The operations that we perform on our database are: READ, WRITE, UPDATE, DELETE
 -   `read` called:
     **_Query_**, **_aggregation data grid_** or **_presentation object_**
 -   `write, edit, delete` called:
-    **_commands_**. or **_entity based model_**
+    **_Commands_**. or **_entity-based model_**
 
 ### Steps:
 
 **1.** Separate the Query and Command models.
 (seperate aggregate model from entity-based model)
 
-<img src="../images/icons/warning.svg" style="position:relative; top:5px" /> Good for validation in CRUD operations, but it dosn`t really optimize the database.
+<img src="../images/icons/warning.svg" style="position:relative; top:5px" /> Good for validation in CRUD operations, but it doesn`t really optimize the database.
 
 <img src="../images/CQRS/service-with-2-models.svg" />
 
@@ -59,7 +59,7 @@ CQRS always has 2 sides: read, write
 
 ## <img src="../images/icons/sad.svg" style="position:relative; top:5px" /> problem 2
 
-How to sync two databses and keep it synchronize?
+How to sync two database and keep it synchronize?
 
 ## <img src="../images/icons/happy.svg" style="position:relative; top:5px" /> solution
 
