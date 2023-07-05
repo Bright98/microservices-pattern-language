@@ -22,9 +22,9 @@ but when read, we retrieve **aggregated** data, instead of the entity-based mode
 
 The operations that we perform on our database are: READ, WRITE, UPDATE, DELETE
 
--   `read` called:
+-   `read` is called:
     **_Query_**, **_aggregation data grid_** or **_presentation object_**
--   `write, edit, delete` called:
+-   `write, edit, delete` are called:
     **_Commands_**. or **_entity-based model_**
 
 ### Steps:
