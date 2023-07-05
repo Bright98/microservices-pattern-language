@@ -27,24 +27,24 @@ Operations that we do in our database are: READ, WRITE, UPDATE, DELETE
 -   `write, edit, delete` called:
     **_commands_**. or **_entity based model_**
 
-Steps:
+### Steps:
 
-1. seperate Query and Command models.
-   (seperate aggregate model from entity base model)
+**1.** seperate Query and Command models.
+(seperate aggregate model from entity base model)
 
     <img src="../images/icons/warning.svg" style="position:relative; top:5px" /> Good for validation in CRUD operation. But it dosn`t really optimize the database
 
 <img src="../images/CQRS/service-with-2-models.svg" />
 
-2. split database to read and write DB.
-   This step, optimizing our databases.
+**2.** split database to read and write DB.
+This step, optimizing our databases.
 
 <img src="../images/CQRS/service-with-2-DB.svg" />
 
-### best solution
+#### best solution
 
-3. split microservice into 2 microservices.
-   each microservice has own model, own database, ...
+**3.** split microservice into 2 microservices.
+each microservice has own model, own database, ...
 
 <img src="../images/CQRS/app-with-2-service.svg" />
 
