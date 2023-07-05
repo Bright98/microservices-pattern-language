@@ -1,6 +1,6 @@
 # microservices pattern language
 
-Summary of my reading about microservice design patterns and pattern languages
+Here are my notes from my reading about microservice design patterns and pattern languages
 
 1. data patterns
     - Quering
