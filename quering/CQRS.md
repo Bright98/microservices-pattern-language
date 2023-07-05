@@ -32,7 +32,7 @@ Operations that we do in our database are: READ, WRITE, UPDATE, DELETE
 **1.** seperate Query and Command models.
 (seperate aggregate model from entity base model)
 
-    <img src="../images/icons/warning.svg" style="position:relative; top:5px" /> Good for validation in CRUD operation. But it dosn`t really optimize the database
+<img src="../images/icons/warning.svg" style="position:relative; top:5px" /> Good for validation in CRUD operation. But it dosn`t really optimize the database
 
 <img src="../images/CQRS/service-with-2-models.svg" />
 
