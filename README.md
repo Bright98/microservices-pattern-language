@@ -5,3 +5,4 @@ Here are my notes from my reading about microservice design patterns and pattern
 1. data patterns
     - Quering
         - [CQRS](https://github.com/Bright98/microservices-pattern-language/blob/main/quering/CQRS.md)
+        - [API Composition](<https://github.com/Bright98/microservices-pattern-language/blob/main/quering/API-composition.md>)
