@@ -10,13 +10,9 @@ However, sometimes clients need to display data **that is aggregated from multip
 ## <img src="../images/icons/meh.svg" style="position:relative; top:5px;" /> situation
 
 Imagine this situation:
+
 We have an e-commerce application with two microservices:
 **Orders** and **Customers**.
-
-The **Customers** microservice stores customer information,
-while the **Orders** microservice handles customer orders.
-
-To maintain the relationship between orders and customers, the Orders microservice stores the **customer ID**.
 
 If we want to retrieve the orders of a specific customer along with their information, the client needs to make **two** API calls.
 
@@ -78,6 +74,6 @@ However, there are some serious issues to consider when putting the composer lay
   Should it respond with an error or return flawed data?
 - If we need to change something in the composer layer, we have to **deploy the entire gateway** after the changes are made.
 
-<img src="../images/icons/warning.svg" style="position:relative; top:5px" /> So, make your decision based on the requirements of your application.
-
 <img src="../images/API-composition/put-composer-in-gateway.svg" style="position:relative; top:20px" />
+
+<img src="../images/icons/warning.svg" style="position:relative; top:5px" /> So, make your decision based on the requirements of your application.
