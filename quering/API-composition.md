@@ -30,7 +30,7 @@ The client then aggregates the data from these two APIs.
 
 ## <img src="../images/icons/happy.svg" style="position:relative; top:5px" /> solution
 
-We should create the **API Composition service** that sits between clients and the underlying APIs.
+We can create the **API Composition service** that sits between clients and the underlying APIs.
 
 This service will handle:
 - The communication with the individual APIs,
