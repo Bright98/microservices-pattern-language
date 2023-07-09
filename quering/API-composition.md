@@ -74,6 +74,17 @@ However, there are some serious issues to consider when putting the composer lay
   Should it respond with an error or return flawed data?
 - If we need to change something in the composer layer, we have to **deploy the entire gateway** after the changes are made.
 
-<img src="../images/API-composition/put-composer-in-gateway.svg" style="position:relative; top:20px" />
+<img src="../images/API-composition/put-composer-in-gateway.svg" style="position:relative; top:20px; margin-bottom: 10px;" />
 
-<img src="../images/icons/warning.svg" style="position:relative; top:5px" /> So, make your decision based on the requirements of your application.
+  ><img src="../images/icons/warning.svg" style="position:relative; top:5px" /> So, make your decision based on the requirements of your application.
+
+## <img src="../images/icons/link.svg" style="position:relative; top:5px" /> related pattern language
+
+- Aggregation
+- Choreography
+
+## <img src="../images/icons/link2.svg" /> links
+
+- https://microservices.io/patterns/data/api-composition.html
+- https://www.youtube.com/watch?v=R0gSwuS8zTM&t=308s
+- https://crishantha.medium.com/microservices-patterns-api-composition-pattern-27040cae5bd3
