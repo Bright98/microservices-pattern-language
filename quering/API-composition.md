@@ -20,7 +20,7 @@ One call is made to retrieve the customer information, and another call is made 
 
 The client then aggregates the data from these two APIs.
 
-<img src="../images/API-composition/call-2-api-example.svg" style="margin-top:10px" />
+<img src="../images/API-composition/call-2-api-example.svg" style="margin-top: 10px;" />
 
 ## <img src="../images/icons/sad.svg" style="position:relative; top:5px" /> problem
 
