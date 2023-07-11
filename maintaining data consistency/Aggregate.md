@@ -24,11 +24,11 @@ Therefore, retrieving data from each service synchronously one by one and aggreg
 ## <img src="../images/icons/happy.svg" style="position:relative; top:5px" /> solution
 
 
-So, to handle this situation, it is necessary to create an **aggregate microservice**.
+To handle this situation, it is necessary to create an **aggregate microservice**.
 
 - The **Aggregate** service is an independent deployable microservice that possesses its own data and database.
 - Its database consistently maintains the aggregated data obtained from other services.
-- Therefore, when a client requires aggregated data, they can retrieve it directly from the **Aggregate** service.
+- When a client requires aggregated data, they can retrieve it directly from the **Aggregate** service.
 
 <img src="../images/Aggregate/add-aggregator.svg" />
 
