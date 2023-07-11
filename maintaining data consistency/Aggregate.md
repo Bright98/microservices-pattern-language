@@ -43,7 +43,7 @@ Upon receiving a message, it updates its database accordingly.
 
 So, the aggregation service always maintains the aggregated data in its database.
 
-> To ensure data consistency, we can utilize the _acknowledgement_ or _checksum pattern_:
+> <img src="../images/icons/warning.svg" style="position:relative; top:5px" /> To ensure data consistency, we can utilize the _acknowledgement_ or _checksum pattern_:
 >
 > The aggregator is responsible for sending an acknowledgment to the sender service upon receiving the data,
 > and then proceeds to commit the data.
